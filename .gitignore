@@ -1,0 +1,5 @@
+from os.path import join
+from google.colab import drive
+
+ROOT='/content/drive'
+drive.mount(ROOT)
